@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>Portfolio - 노드의 정석</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        * {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+
+        .menu {
+            background-color: lightsteelblue;
+            color: white;
+
+            height: 100x;
+
+            display: flex;
+            flex-direction: row;
+            align-items: left;
+            justify-content: left;
+            vertical-align: center;
+        }
+        .nav-item{
+           border-style: solid;
+           border-width: 5px;
+           margin-top:50px;
+           margin-bottom:50px;
+           margin-left:50px;
+           
+            
+        }
+       
+        .menu>button {
+            width: 220px;
+            height: 50px;
+
+            background-color: transparent;
+
+            border: 1px solid white;
+            color: white;
+        }
+
+        .about {
+            text-align: center;
+            height: 270px;
+        }
+
+        .skills {
+            text-align: center;
+        }
+
+        .interests {
+            text-align: center;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact {
+            width: 500px;
+            margin: 20px auto 20px auto;
+        }
+        .mycards{
+           margin: auto;
+ 
+        
+
+        }
+        .col{
+            
+            margin: auto;
+            cursor : pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" >팀소개 페이지</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">권창범의 페이지</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">권윤영의 페이지</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="nara" href="#">신나라의 페이지</a>
+            </li>
+          </ul>
+
+    </div>
+
+    <div class="about">
+        <h1>노드의 정석</h1>
+        <h3>팀소개: 하나라도 열심히 파보는 수학의 정석같은 팀입니다.</h3>
+        <h3>궁극적 목표: 취.뽀</h3>
+        <h3>우리팀의 약속: 탈주닌자는 끝까지 추노한다.</h3>
+
+        <hr>
+    </div>
+
+    <div class="mycards">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://cccv-to.s3.ap-northeast-2.amazonaws.com/files/profile/B72PmTcZb8wj9xaP6vvW_xmzMqHFGMV"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">권창범의 자기소개</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://www.youthdaily.co.kr/data/photos/20210206/art_16127521655378_0f63f2.jpg"
+                        class="card-img-top" onClick="location.href='http://myweb.eba-m2pimzhh.ap-northeast-2.elasticbeanstalk.com/'">
+                    <div class="card-body">
+                        <h5 class="card-title">권윤영의 자기소개</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://file.notion.so/f/s/e3b35986-08b5-4e37-9752-63a86b80a951/Untitled.png?id=194cbdac-a36f-460b-b04a-da9e68ba7e35&table=block&spaceId=27311e59-69bd-462c-abf1-7b7630a795da&expirationTimestamp=1684486444610&signature=_ClAz3nL1x9SOEiXa8J5z9gLxFcTQS_FRq4JEbbuWQ4&downloadName=Untitled.png"
+                        class="card-img-top" onClick="location.href='http://myweb.eba-zguzm7uw.ap-northeast-2.elasticbeanstalk.com/'">
+                    <div class="card-body">
+                        <h5 class="card-title">신나라의 자기소개</h5>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="skills">
+        <hr>
+        <h1>SKILLS</h1>
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-python"></i>
+        <i class="fa-brands fa-docker"></i>
+        <i class="fa-brands fa-golang"></i>
+        <i class="fa-brands fa-rust"></i>
+        <hr>
+    </div>
+
+
+</body>
+
+</html>
